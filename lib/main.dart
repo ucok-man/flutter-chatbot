@@ -35,7 +35,7 @@ class _MyAppState extends State<MyApp> {
       builder: (BuildContext context, value, Widget? child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'ChatBot',
+          title: 'ChatBOT',
           theme: AppTheme.themeData(
             isDarkTheme: value.isDarkTheme,
             context: context,
