@@ -1,5 +1,5 @@
-import 'package:chatbot/main_screens/home_screen.dart';
 import 'package:chatbot/providers/theme_provider.dart';
+import 'package:chatbot/screens/register_screen.dart';
 import 'package:chatbot/themes/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -35,12 +35,12 @@ class _MyAppState extends State<MyApp> {
       builder: (BuildContext context, value, Widget? child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'ChatBOT',
+          title: 'CBOT',
           theme: AppTheme.themeData(
             isDarkTheme: value.isDarkTheme,
             context: context,
           ),
-          home: const HomeScreen(),
+          home: const RegisterScreen(),
         );
       },
     );

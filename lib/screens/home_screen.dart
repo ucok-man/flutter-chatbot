@@ -1,6 +1,6 @@
-import 'package:chatbot/main_screens/ai_chat_screen.dart';
-import 'package:chatbot/main_screens/post_screen.dart';
-import 'package:chatbot/main_screens/profile_screen.dart';
+import 'package:chatbot/screens/ai_chat_screen.dart';
+import 'package:chatbot/screens/post_screen.dart';
+import 'package:chatbot/screens/profile_screen.dart';
 import 'package:chatbot/providers/theme_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
